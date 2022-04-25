@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+html{
+    background-image: url("../images/silver.jpg");
+}
+body{
+    max-width: 960px;
+    background-color: white;
+    margin: auto;
+}
+header{
+    border: 10px solid black;
+    background-color: lightskyblue;
+}
+header h1{
+    color: red;
+    margin-left: 3em;
+    margin-top: 0.6em;
+    text-shadow: 2px 2px 3px black;
+}
+header img{
+    width: 12%;
+    float: left;
+}
+.navbar{
+    clear: both;
+}
+main{
+    border: 5px solid blue;
+}
+form{
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
+    border: 3px ridge blue;
+    padding: 1em;
+}
+#pokeImg{
+    display: block;
+    margin: auto;
+    border: 3px ridge blue;
+}
+#pokeShiny{
+    display: block;
+    margin: auto;
+    border: 3px ridge gold;
+    max-width: 450px;
+    width: 100%;
+    margin-bottom: 1em;
+}
+#types{
+    width: 60%;
+    display: block;
+    margin: auto;
+    border: 3px ridge blue;
+    margin-top: 1em;
+}
+#fav{
+    width: 50%;
+    display: block;
+    margin: auto;
+    border: 3px ridge blue;
+    margin-top: 1em;
+}
+#game{
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+section h1{
+    text-align: center;
+    font-variant: small-caps;
+    text-shadow: 1px 1px 5px blue;
+}
+section h3{
+    text-align: center;
+    font-variant: small-caps;
+    color: red;
+}
+section h5{
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px blue;
+}
+section ul li{
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 150%;
+    color: red;
+}
+footer{
+    background-color: lightskyblue;
+    border-right: 5px solid blue;
+    border-left: 5px solid blue;
+    border-bottom: 5px solid blue;
+}
+footer p{
+    text-align: center;
+}
+@media only screen and (max-width: 500px){
+    #pokeImg{
+        border: none;
+        width: 100%;
+    }
+    #pokeShiny{
+        border: none;
+        width: 100%;
+    }
+    header img{
+        float: none;
+        display: block;
+        margin: auto;
+    }
+    header h1{
+        margin: 0;
+        text-align: center;
+    }
+}

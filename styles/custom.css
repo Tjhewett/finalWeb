@@ -1,0 +1,14 @@
+
+body{
+    margin: auto;
+}
+.navbar{
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.nav-link{
+    font-weight: bold;
+    font-size: 110%;
+    color: black;
+}
